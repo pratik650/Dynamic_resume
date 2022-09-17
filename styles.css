@@ -198,18 +198,20 @@ h4{
 }
 
 .intrest ul{
+     display: grid;
     grid-template-columns:repeat(4,1fr);
 }
 .intrest ul li {
-    list-style: none;
+ list-style: none;
+    align-items:stretch; 
     color: #333;
     font-weight:500;
-    
+    margin: 10px 0;
 }
 .intrest ul li .fa{
+    margin: 10px;
     color: #03a9f4;
     font-size: 18px;
-    margin: 10px;
     width: 20px;
 }
 
