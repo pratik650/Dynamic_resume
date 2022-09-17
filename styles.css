@@ -202,8 +202,8 @@ h4{
     grid-template-columns:repeat(4,1fr);
 }
 .intrest ul li {
-    list-style: none;
-    align-items:stretch;
+/*     list-style: none;
+    align-items:stretch; */
     color: #333;
     font-weight:500;
     margin: 10px 0;
